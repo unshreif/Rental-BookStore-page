@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+.wrapper{
+    width: 42%;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    margin: 4% 0;
+}
+
+.abdul-container{
+    display: flex;
+    height: 18em;
+    width: 100%;
+    background-color: #e6f6ff;
+}
+
+.abdul-container img{
+    height: 100%;
+    width: 15em;
+}
+
+.abdul-container>.abdul-right>h2{
+    color:#183b56;
+    font-size: 2em;
+    /* margin-bottom: 3%; */
+}
+.abdul-container>.abdul-right>h3{
+    color: #06070d;
+    font-size: 1.5em;
+    /* margin-bottom: 5%; */
+}
+
+.abdul-container>.abdul-right>h4{
+    color: #183b56;
+    font-size: ;
+}
+.btn{
+    background-color: #0a65d6;
+    color: white;
+    height: 45px;
+    width: 125px;
+    padding: 0 5%;
+    border: none;
+    border-radius: 7px;
+   text-align: center;
+   text-decoration: none;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+   cursor: pointer;
+
+}
+.btn a {
+    text-decoration: none;
+    color: white; /* Set initial link color to white */
+    transition: color 0.3s ease; /* Add transition for color change */
+  }
+  
+  .btn:hover {
+    background-color: #f15555;
+    transform: scale(1.05);
+  }
+  
+  /* Style visited link */
+  .btn a:visited {
+    color: white; /* Set visited link color to white */
+  }
+
+.abdul-right{
+    margin: 6%;
+    margin-right: 9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.part2{
+    width: 90%;
+}
+.part2>h1{
+    margin: 3% 0;
+}
+.book-container{
+    display: flex;
+    height: 13em;
+    
+}
+.part2>.book-container{
+    margin: 5% 0;
+}
+.part2>.book-container>.book-right{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.part2>.book-container>.book-left>img{
+    height: 14em;
+    width: 10em;
+}
+.part2>.book-container>.book-right>h1{
+    font-size: 1.8em;
+}
+.part2>.book-container>.book-right>p{
+    font-size: 1.2em;
+}
